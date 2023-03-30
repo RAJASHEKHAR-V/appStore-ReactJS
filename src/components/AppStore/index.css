@@ -1,0 +1,155 @@
+.bg-Container {
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-card {
+  width: 90%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-heading {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.input-card {
+  width: 30%;
+  height: 35px;
+  border: 1px solid #7b8794;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-input {
+  width: 70%;
+  height: 30px;
+  font-family: 'Bree Serif';
+  color: #7b8794;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.image-card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-image {
+  min-width: 28px;
+  min-height: 28px;
+}
+
+.tabs-card {
+  width: 50%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.category-card {
+  width: 80%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .app-card {
+    width: 98%;
+    min-height: 90vh;
+  }
+
+  .app-heading {
+    font-size: 25px;
+  }
+
+  .input-card {
+    width: 50%;
+  }
+
+  .search-input {
+    font-size: 12px;
+  }
+
+  .search-image {
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  .tabs-card {
+    width: 55%;
+  }
+
+  .tab-list-item {
+    width: 25%;
+  }
+
+  .button {
+    font-size: 12px;
+  }
+
+  .category-card {
+    width: 98%;
+  }
+
+  .category-list-item {
+    width: 20%;
+    height: 100px;
+  }
+
+  .category-image {
+    width: 30%;
+    height: 30%;
+  }
+
+  .app-name {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .app-heading {
+    font-size: 45px;
+  }
+
+  .search-input {
+    font-size: 18px;
+  }
+
+  .search-image {
+    max-width: 35px;
+    max-height: 35px;
+  }
+
+  .button {
+    font-size: 18px;
+  }
+
+  .app-name {
+    font-size: 15px;
+  }
+}
